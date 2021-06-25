@@ -1,0 +1,80 @@
+/* Colors:
+RichBlack #000814
+OxfordBlue #001D3D
+BabyPowder #FFFFFA
+BloodRed #6B0504
+BodyGray #474747*/
+
+
+body {
+  background-color: #474747;
+  margin: 0;
+}
+
+header {
+  background-color: #000814;
+  color: #FFFFFA;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+}
+
+footer {
+  background-color: #000814;
+  color: #FFFFFA;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 8px 40px;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Versions Section */
+.versions-section {
+  color: #FFFFFA;
+  padding: 160px 0 160px;
+  text-align: center;
+}
+
+.versions-all {
+  width: 1130px;
+  max-width: 95%;
+  margin: auto;
+  text-align: center;
+}
+
+.version-individual {
+  background-color: #FFFFFA;
+  border-radius: 4px;
+  color: #000814;
+  display: inline-block;
+  height: 240px;
+  margin: 6px;
+  padding: 10px 30px;
+  text-align: left;
+  vertical-align: top;
+  width: 300px;
+}
+
+.version-individual:hover {
+  background-color: #f0f0f0;
+}

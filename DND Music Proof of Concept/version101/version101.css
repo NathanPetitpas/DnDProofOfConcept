@@ -1,0 +1,89 @@
+/* Colors:
+RichBlack #000814
+OxfordBlue #001D3D
+BabyPowder #FFFFFA
+BloodRed #6B0504
+BodyGray #474747*/
+
+
+header {
+  background-color: #000814;
+  color: #FFFFFA;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #474747;
+  margin: 0;
+}
+
+footer {
+  background-color: #000814;
+  color: #FFFFFA;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 80px;
+  padding-top: 20px;
+}
+
+h1 {
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 8px 40px;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background-color: #000814;
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  border-color: #000814;
+  margin: 6px;
+}
+
+button:hover {
+  border-color: #FFFFFA;
+}
+
+.version-number {
+  margin: 40px 20px;
+}
+
+.grid-section {
+  padding: 200px 0px 40px;
+  text-align: center;
+}
+
+.controls-button {
+  color: #FFFFFA;
+  font-family: 'Poppins', sans-serif;
+  width: 200px;
+}
+
+.grid-button {
+  height: 100px;
+  width: 100px;
+}
+
+.active-button {
+  border-color: #f0f0f0;
+}
